@@ -4,7 +4,7 @@ import NavBar from "@/components/NavBar";
 
 export default function Home() {
   return (
-    <div className="m-0">
+    <div className="m-0 px-16">
       <NavBar />
       <Header />
       <Icon />
