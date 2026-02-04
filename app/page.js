@@ -1,3 +1,4 @@
+import CtaSection from "@/components/CtaSection";
 import Header from "@/components/Header";
 import Icon from "@/components/Icon";
 import NavBar from "@/components/NavBar";
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <Icon />
       <Services />
+      <CtaSection />
     </div>
   )
 }
