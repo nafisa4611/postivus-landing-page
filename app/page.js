@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Icon from "@/components/Icon";
 import NavBar from "@/components/NavBar";
 import Services from "@/components/Services";
+import WorkingProcess from "@/components/WorkingProgress";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Services />
       <CtaSection />
       <CaseStudies />
+      <WorkingProcess />
     </div>
   )
 }

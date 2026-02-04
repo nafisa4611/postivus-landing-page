@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function CaseStudies() {
   return (
     <div className="mt-12">
@@ -22,12 +24,14 @@ export default function CaseStudies() {
             For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.
           </p>
 
-          <button className="text-[#B9FF66] font-bold text-lg sm:text-2xl py-2 pr-4 mt-6">
+          <button className="text-[#B9FF66] font-bold text-lg sm:text-2xl py-2 pr-4 mt-6 flex items-center gap-2">
             <span className="hover:bg-white hover:text-black hover:px-2 hover:rounded transition-all">
               Learn
             </span>{" "}
             More
+            <Image src="/icon/icon-arrow-link-nude.svg" alt="Arrow Right" width={16} height={16} className="mt-2" />
           </button>
+
         </div>
 
         {/* Card 2 */}
@@ -36,11 +40,12 @@ export default function CaseStudies() {
             For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.
           </p>
 
-          <button className="text-[#B9FF66] font-bold text-lg sm:text-2xl py-2 pr-4 mt-6">
+          <button className="text-[#B9FF66] font-bold text-lg sm:text-2xl py-2 pr-4 mt-6 flex items-center gap-2">
             <span className="hover:bg-white hover:text-black hover:px-2 hover:rounded transition-all">
               Learn
             </span>{" "}
             More
+            <Image src="/icon/icon-arrow-link-nude.svg" alt="Arrow Right" width={16} height={16} className="mt-2" />
           </button>
         </div>
 
@@ -50,11 +55,12 @@ export default function CaseStudies() {
             For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.
           </p>
 
-          <button className="text-[#B9FF66] font-bold text-lg sm:text-2xl py-2 pr-4 mt-6">
+          <button className="text-[#B9FF66] font-bold text-lg sm:text-2xl py-2 pr-4 mt-6 flex items-center gap-2">
             <span className="hover:bg-white hover:text-black hover:px-2 hover:rounded transition-all">
               Learn
             </span>{" "}
             More
+            <Image src="/icon/icon-arrow-link-nude.svg" alt="Arrow Right" width={16} height={16} className="mt-2" />
           </button>
         </div>
 
