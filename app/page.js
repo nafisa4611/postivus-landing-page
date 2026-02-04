@@ -1,8 +1,10 @@
+import CaseStudies from "@/components/CaseStudies";
 import CtaSection from "@/components/CtaSection";
 import Header from "@/components/Header";
 import Icon from "@/components/Icon";
 import NavBar from "@/components/NavBar";
 import Services from "@/components/Services";
+
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
       <Icon />
       <Services />
       <CtaSection />
+      <CaseStudies />
     </div>
   )
 }

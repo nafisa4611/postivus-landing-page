@@ -5,7 +5,6 @@ export default function ServiceCard({
   titleLine1, 
   titleLine2, 
   bgColor, 
-  labelBg, 
   textColor, 
   image, 
   iconBg, 

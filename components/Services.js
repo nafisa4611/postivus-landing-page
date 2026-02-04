@@ -60,7 +60,11 @@ export default function Services() {
   ];
 
   return (
-    <section className="bg-white py-12 px-6">
+    <section className="bg-white py-12 px-6 sm:pt-0">
+      <div className="flex-col md:flex-row flex items-center justify-start gap-8 mb-12 mx-24 p-4 sm:mb-4">
+        <h1 className="text-4xl font-bold text-center rounded-2xl text-black bg-[#B9FF66] w-48 p-4">Services</h1>
+        <p className="text-base sm:text-xl text-justify">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online.<br/> These services include:</p>
+      </div>
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
         {servicesData.map((service, index) => (
           <ServiceCard key={index} {...service} />

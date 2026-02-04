@@ -6,7 +6,7 @@ export default function Header() {
     <div className="flex flex-col lg:flex-row justify-between items-center py-10 px-6 md:px-12 lg:px-20 bg-bg transition-colors duration-300 gap-10">
       {/* TEXT CONTENT CONTAINER */}
       <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left">
-        <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl sm:text-justify md:text-justify leading-tight text-black max-w-2xl">
+        <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl md:text-justify leading-tight text-black max-w-2xl">
           Navigating the digital landscape for success
         </h1>
         

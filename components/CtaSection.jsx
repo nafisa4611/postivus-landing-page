@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function CtaSection() {
   return (
-    <section className="px-24 sm:p-4">
-      <div className="md:mx-24 sm:mx-0 group relative h-[350px]  rounded-3xl bg-neutral-100 shadow-2xl shadow-gray-400">
+    <section className="pb-64 md:pb-0 px-4 md:px-24">
+      <div className="md:mx-24 sm:mx-0 group relative h-[350px] rounded-3xl bg-neutral-100 shadow-2xl shadow-gray-400">
 
         {/* Green circle */}
         <div
