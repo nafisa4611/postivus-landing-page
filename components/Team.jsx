@@ -54,10 +54,10 @@ const teamData = [
 
 export default function Team() {
     return (
-        <section className="mx-4 md:mx-24 my-24">
+        <section className="mx-4">
             {/* Header */}
             <div className="flex flex-col md:flex-row items-start md:items-center gap-6 mb-16">
-                <h2 className="bg-[#B9FF66] px-6 py-3 rounded-xl text-3xl md:text-4xl font-bold">
+                <h2 className="bg-[#B9FF66] px-6 py-3 rounded-xl text-3xl font-bold ml-20">
                     The Team
                 </h2>
                 <p className="text-xl">

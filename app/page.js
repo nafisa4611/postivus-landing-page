@@ -1,6 +1,7 @@
 import CaseStudies from "@/components/CaseStudies";
 import ContactUs from "@/components/ContactUs";
 import CtaSection from "@/components/CtaSection";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Icon from "@/components/Icon";
 import NavBar from "@/components/NavBar";
@@ -23,6 +24,7 @@ export default function Home() {
       <Team />
       <Testimonials />
       <ContactUs />
+      <Footer />
     </div>
   )
 }
