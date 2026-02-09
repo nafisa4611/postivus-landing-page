@@ -1,4 +1,5 @@
 import CaseStudies from "@/components/CaseStudies";
+import ContactUs from "@/components/ContactUs";
 import CtaSection from "@/components/CtaSection";
 import Header from "@/components/Header";
 import Icon from "@/components/Icon";
@@ -21,6 +22,7 @@ export default function Home() {
       <WorkingProcess />
       <Team />
       <Testimonials />
+      <ContactUs />
     </div>
   )
 }
