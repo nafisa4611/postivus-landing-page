@@ -5,6 +5,7 @@ import Icon from "@/components/Icon";
 import NavBar from "@/components/NavBar";
 import Services from "@/components/Services";
 import Team from "@/components/Team";
+import Testimonials from "@/components/Testimonials";
 import WorkingProcess from "@/components/WorkingProgress";
 
 
@@ -19,6 +20,7 @@ export default function Home() {
       <CaseStudies />
       <WorkingProcess />
       <Team />
+      <Testimonials />
     </div>
   )
 }

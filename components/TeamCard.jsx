@@ -6,7 +6,7 @@ export default function TeamCard({ name, role, experience, skills, imageUrl }) {
       <div className="flex items-start justify-between relative mb-6">
         <div className="flex items-center gap-4">
           <div className="relative w-24 h-24 bg-[#B9FF66] rounded-full overflow-hidden flex items-center justify-center">
-             <img src={imageUrl} alt={name} className="object-cover w-full h-full grayscale" />
+             <img src={imageUrl} alt={name} className="object-cover w-full h-full grayscale"/>
           </div>
           <div>
             <h3 className="text-2xl font-bold">{name}</h3>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function CaseStudies() {
   return (
-    <div className="mt-12">
+    <div className="mt-12 lg:my-16">
       
       {/* Header */}
       <div className="flex flex-col md:flex-row items-start md:items-center gap-4 mb-12 sm:mb-4 mx-4 sm:mx-24 p-4 ">

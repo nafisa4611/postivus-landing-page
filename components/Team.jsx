@@ -64,7 +64,7 @@ export default function Team() {
                     Meet the skilled and experienced team behind our successful digital marketing strategies
                 </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="lg:ml-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {teamData.map((member) => (
                     <TeamCard
                         key={member.id}
