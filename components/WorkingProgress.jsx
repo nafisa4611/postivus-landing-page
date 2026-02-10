@@ -25,19 +25,19 @@ const steps = [
     id: 4,
     title: "Monitoring and Optimization",
     content:
-       "We continuously monitor campaign performance, analyze data, and make data-driven optimizations to improve results and ensure your marketing efforts are delivering the best possible outcomes.",
+      "We continuously monitor campaign performance, analyze data, and make data-driven optimizations to improve results and ensure your marketing efforts are delivering the best possible outcomes.",
   },
   {
     id: 5,
     title: "Reporting and Communication",
     content:
-       "Regular reporting and transparent communication keep you informed about campaign progress, key metrics, and insights, ensuring you're always aware of how your marketing investments are performing.",
+      "Regular reporting and transparent communication keep you informed about campaign progress, key metrics, and insights, ensuring you're always aware of how your marketing investments are performing.",
   },
   {
     id: 6,
     title: "Continuous Improvement",
     content:
-      "We believe in continuous improvement, regularly reviewing and refining our strategies based on performance data and market changes to ensure long-term success and growth for your business.",   
+      "We believe in continuous improvement, regularly reviewing and refining our strategies based on performance data and market changes to ensure long-term success and growth for your business.",
   },
 ];
 
@@ -45,20 +45,20 @@ export default function WorkingProcess() {
   const [active, setActive] = useState(1);
 
   return (
-    <section className="mx-4 md:mx-24 my-24">
-      
+    <section className="mx-4 md:mx-24 my-16 md:my-24">
+
       {/* Header */}
-      <div className="flex flex-col md:flex-row items-start md:items-center gap-6 mb-16">
-        <h2 className="bg-[#B9FF66] px-6 py-3 rounded-xl text-3xl md:text-4xl font-bold">
+      <div className="flex flex-col md:flex-row gap-4 md:gap-6 mb-12 md:mb-16">
+        <h2 className="bg-[#B9FF66] px-5 py-3 rounded-xl text-2xl sm:text-3xl md:text-4xl font-bold">
           Our Working Process
         </h2>
-        <p className="text-xl">
+        <p className="text-base sm:text-lg md:text-xl max-w-2xl">
           Step-by-Step Guide to Achieving Your Business Goals
         </p>
       </div>
 
       {/* Accordion */}
-      <div className="space-y-6">
+      <div className="space-y-4 md:space-y-6">
         {steps.map((step) => (
           <AccordionItem
             key={step.id}
@@ -86,22 +86,22 @@ export function AccordionItem({ step, isOpen, onClick }) {
       {/* Header */}
       <button
         onClick={onClick}
-        className="flex w-full items-center justify-between px-8 py-8 text-left"
+        className="flex w-full items-start sm:items-center justify-between px-5 sm:px-12 py-5 sm:py-8 text-left gap-4"
       >
-        <div className="flex items-center gap-6">
-          <span className="text-4xl md:text-6xl font-bold">
+        <div className="flex items-start sm:items-center gap-4 sm:gap-6">
+          <span className="text-3xl sm:text-4xl md:text-6xl font-bold leading-none">
             {step.id}
           </span>
-          <h3 className="text-3xl md:text-3xl font-bold">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold leading-tight">
             {step.title}
           </h3>
         </div>
 
-        {/* Plus / Minus */}
-        <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-black text-3xl font-bold">
+        <div className="flex h-9 w-9 sm:h-12 sm:w-12 items-center justify-center rounded-full border-2 border-black text-2xl sm:text-3xl font-bold shrink-0">
           {isOpen ? "−" : "+"}
         </div>
       </button>
+
 
       {/* Content */}
       <div
@@ -112,7 +112,7 @@ export function AccordionItem({ step, isOpen, onClick }) {
       >
         <div className="overflow-hidden px-8 pb-8">
           <div className="h-px bg-black mb-6" />
-          <p className="text-xl font-semibold leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl font-semibold leading-relaxed">
             {step.content}
           </p>
         </div>
